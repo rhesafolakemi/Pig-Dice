@@ -1,0 +1,47 @@
+#background {
+  background-image: url(..//images/242556.png);
+  background-repeat: no-repeat;
+  background: rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.active {
+  color: white;
+  padding-left: 20px;
+}
+
+.navbar-right{
+  padding-left: 800px;
+  float: right;
+}
+
+#dice {
+  padding: 50px;
+  text-align: center;
+}
+
+
+#head-name {
+  text-align: center;
+}
+
+.header {
+  background-color: #fffcfc;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 50px;
+}
+
+#player1 {
+  float: left;
+}
+
+#player2 {
+  float: right;
+}
+
+.obj {
+  background-color: #fffcfc;
+  background: rgba(0.1, 0.1, 0.1, 0.1);
+  padding: 80px;
+  text-align: center;
+  text-decoration-style: solid;
+}
