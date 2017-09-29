@@ -1,7 +1,7 @@
 #background {
   background-image: url(..//images/242556.png);
   background-repeat: no-repeat;
-  background: rgba(0.5, 0.5, 0.5, 0.5);
+  background: rgba(0.3, 0.3, 0.3, 0.5);
 }
 
 .active {
@@ -16,7 +16,6 @@
 
 #dice {
   padding: 50px;
-  text-align: center;
 }
 
 
@@ -32,16 +31,25 @@
 
 #player1 {
   float: left;
+  padding-left: 100px;
 }
 
 #player2 {
   float: right;
+  padding-right: 100px;
 }
 
 .obj {
-  background-color: #fffcfc;
-  background: rgba(0.1, 0.1, 0.1, 0.1);
-  padding: 80px;
-  text-align: center;
-  text-decoration-style: solid;
+    background-color: #f9f2f2;
+    box-shadow: 5px 5px 5px #fffcfc;
+    text-align: center;
+    padding: 80px;
+}
+
+.roll {
+  padding-left: 200px;
+}
+
+.roll2 {
+  padding-left: 200px;
 }
